@@ -243,6 +243,7 @@ export function driftReport(expected: ColumnMapping, table: CsvTable): DriftRepo
   return {
     status,
     expectedHeader: expected.header,
+    expectedColumns: expected.columns,
     foundHeader: found,
     missing,
     added,

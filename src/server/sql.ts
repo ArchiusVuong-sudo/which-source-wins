@@ -227,6 +227,7 @@ create table if not exists decision (
   field text not null,
   decision text not null check (decision in ('accepted', 'rejected')),
   rule_id text not null,
+  proposed_rule_id text not null,
   from_version int not null,
   proposed_version int not null,
   proposed_sources jsonb not null,

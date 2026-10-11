@@ -65,8 +65,9 @@ export async function runScaleCheck(rowCount = 1_000_000): Promise<ScaleReport> 
         (array['1500','F-150','RAV4','Civic','Elantra','Silverado','Rogue','Grand Cherokee'])[1 + (g % 8)::int] as model,
         2012 + ((g / 8) % 13)::int as model_year,
         'S' || lpad(((g * 7919) % 5000)::text, 4, '0') as seller,
-        ((g * 104729) % 300000)::int as km,
-        (g % 10) <> 0 as has_vin
+        ((g * 104729) % 150000)::int as km,
+        -- Independent of the seller (g mod 5000), so each lot has VIN-less rows.
+        ((g / 5000) % 10) <> 0 as has_vin
       from generate_series(1::bigint, ${Math.trunc(rowCount)}::bigint) g;
       analyze record_scale;
     `);
@@ -75,7 +76,7 @@ export async function runScaleCheck(rowCount = 1_000_000): Promise<ScaleReport> 
     t0 = performance.now();
     await pg.exec('create index record_scale_block on record_scale (seller, make, model, model_year, km); analyze record_scale;');
     const indexMs = performance.now() - t0;
-    const withIndex = await explain(pg, 'With composite index (seller, make, model, model_year, km)');
+    const withIndex = await explain(pg, 'With composite index');
     return { rows: rowCount, insertMs, indexMs, query: BLOCKING_QUERY, withoutIndex, withIndex };
   } finally {
     await pg.close();

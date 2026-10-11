@@ -119,6 +119,8 @@ export interface MappingProposalRow {
 export interface DriftReport {
   status: 'match' | 'drift';
   expectedHeader: string[];
+  /** Our field to the column the approved mapping reads it from. */
+  expectedColumns: Record<string, string>;
   foundHeader: string[];
   missing: string[];
   added: string[];
@@ -247,6 +249,7 @@ export interface Decision {
   field: FieldName;
   decision: 'accepted' | 'rejected';
   ruleId: string;
+  proposedRuleId: string;
   fromVersion: number;
   proposedVersion: number;
   proposedSources: SourceId[];

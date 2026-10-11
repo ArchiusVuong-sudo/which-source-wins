@@ -317,9 +317,9 @@ export class Platform {
         }
         const d = await one<{ id: number }>(
           tx,
-          `insert into decision (field, decision, rule_id, from_version, proposed_version, proposed_sources, reason, score_before, score_after, build_id)
-           values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) returning id`,
-          [field, decision, current.fields[field].id, current.fields[field].version, next.fields[field].version, JSON.stringify(sources), reason.trim(), JSON.stringify(p.before), JSON.stringify(p.after), build?.id ?? null],
+          `insert into decision (field, decision, rule_id, proposed_rule_id, from_version, proposed_version, proposed_sources, reason, score_before, score_after, build_id)
+           values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) returning id`,
+          [field, decision, current.fields[field].id, next.fields[field].id, current.fields[field].version, next.fields[field].version, JSON.stringify(sources), reason.trim(), JSON.stringify(p.before), JSON.stringify(p.after), build?.id ?? null],
         );
         const all = await listDecisions(tx);
         return { decision: all.find((x) => x.id === d!.id)!, build };
@@ -395,11 +395,11 @@ function linkEvidence(method: LinkEvidence['method'], ev: Record<string, unknown
 
 async function listDecisions(sql: Sql): Promise<Decision[]> {
   const r = await rows<{
-    id: number; at: string; field: FieldName; decision: Decision['decision']; rule_id: string; from_version: number; proposed_version: number;
+    id: number; at: string; field: FieldName; decision: Decision['decision']; rule_id: string; proposed_rule_id: string; from_version: number; proposed_version: number;
     proposed_sources: SourceId[]; reason: string; score_before: Decision['before']; score_after: Decision['after']; build_id: number | null;
   }>(sql, 'select * from decision order by id desc');
   return r.map((d) => ({
-    id: d.id, at: new Date(d.at).toISOString(), field: d.field, decision: d.decision, ruleId: d.rule_id, fromVersion: d.from_version,
+    id: d.id, at: new Date(d.at).toISOString(), field: d.field, decision: d.decision, ruleId: d.rule_id, proposedRuleId: d.proposed_rule_id, fromVersion: d.from_version,
     proposedVersion: d.proposed_version, proposedSources: d.proposed_sources, reason: d.reason, before: d.score_before, after: d.score_after, buildId: d.build_id,
   }));
 }

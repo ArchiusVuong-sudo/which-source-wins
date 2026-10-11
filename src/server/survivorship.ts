@@ -147,7 +147,8 @@ export function assembleField(field: FieldName, rules: RuleSet, obs: ObsRow[], w
       tier: o.tier,
       asOf: o.as_of,
       recordId: o.record_id,
-      agrees: win ? o.norm === win.norm : false,
+      // Readings over time are not disagreements; only a rollback is.
+      agrees: rule.kind === 'latest_reading' ? !o.rollback_of : win ? o.norm === win.norm : false,
       flag: o.rollback_of
         ? `below an earlier reading: ${km(o.rollback_of.km)} (${SOURCE_BY_ID[o.rollback_of.source].label}, ${o.rollback_of.asOf})`
         : null,
@@ -182,6 +183,8 @@ export function assembleField(field: FieldName, rules: RuleSet, obs: ObsRow[], w
     reason =
       `VIN pattern lists alternatives (${patternObs.evidence.options.join(', ')}). A shortlist is not a value.` +
       (fallback.length ? ` No value from ${sourcesLabel(fallback)} either.` : '');
+  } else if (rule.sources.length === 1 && rule.sources[0] === 'vin_pattern') {
+    reason = `The VIN pattern has no ${FIELD_LABELS[field].toLowerCase()} for this VIN. Checked: ${sourcesLabel(rule.sources)}.`;
   } else {
     reason = `No source has a value. Checked: ${sourcesLabel(rule.sources)}.`;
   }

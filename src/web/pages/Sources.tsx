@@ -250,7 +250,7 @@ function DriftPanel({ id, onApproved }: { id: number; onApproved: (m: ColumnMapp
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {r.proposal.map((p) => {
-                  const was = r.expectedColumns[p.field] ?? p.field;
+                  const was = r.expectedColumns?.[p.field] ?? p.field;
                   const wasPos = r.expectedHeader.indexOf(was) + 1;
                   const nowPos = p.column ? r.foundHeader.indexOf(p.column) + 1 : 0;
                   return (

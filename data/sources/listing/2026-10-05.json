@@ -1,0 +1,382 @@
+[
+  {
+    "listing_id": "L-1001",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Dodge Ram SLT 4x4 Crew Cab - ONLY 48,000 KM!",
+    "vin": "1C6RR7LTXKS612354",
+    "price_cad": 24128,
+    "km": 48000,
+    "listed_at": "2026-10-02",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1002",
+    "seller": "Lot 14 · Sudbury, ON",
+    "title": "2019 Ram 1500 Classic SLT, clean history",
+    "vin": "1C6RR7LT6KS615601",
+    "price_cad": 31215,
+    "km": 65200,
+    "listed_at": "2026-09-24",
+    "colour": "Black"
+  },
+  {
+    "listing_id": "L-1003",
+    "seller": "Lot 14 · Sudbury, ON",
+    "title": "2019 Ram 1500 Big Horn, clean history",
+    "vin": "1C6SRFFT0KN564683",
+    "price_cad": 28779,
+    "km": 62900,
+    "listed_at": "2026-09-22",
+    "colour": "Blue"
+  },
+  {
+    "listing_id": "L-1004",
+    "seller": "Lot 14 · Sudbury, ON",
+    "title": "2019 Ram 1500 4x4 - certified, 64,000 km",
+    "vin": null,
+    "price_cad": 24059,
+    "km": 64000,
+    "listed_at": "2026-10-03",
+    "colour": "Blue"
+  },
+  {
+    "listing_id": "L-1005",
+    "seller": "Lot 22 · Guelph, ON",
+    "title": "2019 Ford F-150 XLT",
+    "vin": "1FTEW1EP7KFA10042",
+    "price_cad": 24002,
+    "km": 39513,
+    "listed_at": "2026-10-02",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1006",
+    "seller": "Lot 19 · Windsor, ON",
+    "title": "2019 Toyota RAV4 Limited - low km",
+    "vin": "2T3W1RFV6KC385952",
+    "price_cad": 28911,
+    "km": 73928,
+    "listed_at": "2026-09-29",
+    "colour": "Silver"
+  },
+  {
+    "listing_id": "L-1007",
+    "seller": "Lot 19 · Windsor, ON",
+    "title": "2019 Toyota RAV4 XLE - certified",
+    "vin": "2T3W1RFV6KC385952",
+    "price_cad": 28419,
+    "km": 33632,
+    "listed_at": "2026-09-19",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1008",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Ford Escape Titanium, winter tires included",
+    "vin": "1FMCU9HD3KUA14468",
+    "price_cad": 32254,
+    "km": 58817,
+    "listed_at": "2026-09-24",
+    "colour": "Grey"
+  },
+  {
+    "listing_id": "L-1009",
+    "seller": "Lot 11 · Barrie, ON",
+    "title": "2019 Honda Civic LX - one owner",
+    "vin": "2HGFC2F51KH974523",
+    "price_cad": 25874,
+    "km": 113325,
+    "listed_at": "2026-09-18",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1010",
+    "seller": "Lot 11 · Barrie, ON",
+    "title": "2019 Honda Civic LX - one owner",
+    "vin": null,
+    "price_cad": 27282,
+    "km": 113923,
+    "listed_at": "2026-10-01",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1011",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Honda Civic LX",
+    "vin": "2HGFC2F59KH684613",
+    "price_cad": 30432,
+    "km": 38731,
+    "listed_at": "2026-10-02",
+    "colour": "Black"
+  },
+  {
+    "listing_id": "L-1012",
+    "seller": "Lot 03 · Kingston, ON",
+    "title": "2023 Hyundai Kona SE - certified",
+    "vin": "KM8K2CABXPU543214",
+    "price_cad": 37291,
+    "km": 30425,
+    "listed_at": "2026-09-26",
+    "colour": "Green"
+  },
+  {
+    "listing_id": "L-1013",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Nissan Rogue SL, winter tires included",
+    "vin": "5N1AT2MV7KC282437",
+    "price_cad": 22805,
+    "km": 54092,
+    "listed_at": "2026-09-26",
+    "colour": "Grey"
+  },
+  {
+    "listing_id": "L-1014",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Honda Civic Touring, clean history",
+    "vin": "2HGFC2F58KH535349",
+    "price_cad": 25649,
+    "km": 61000,
+    "listed_at": "2026-09-28",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1015",
+    "seller": "Lot 22 · Guelph, ON",
+    "title": "2019 Toyota Corolla XSE",
+    "vin": "2T1BURHE4KC296456",
+    "price_cad": 33925,
+    "km": 74792,
+    "listed_at": "2026-09-16",
+    "colour": "Grey"
+  },
+  {
+    "listing_id": "L-1016",
+    "seller": "Lot 03 · Kingston, ON",
+    "title": "2019 Honda CR-V EX, winter tires included",
+    "vin": "2HKRW2H56KH102068",
+    "price_cad": 34474,
+    "km": 37495,
+    "listed_at": "2026-09-17",
+    "colour": "Black"
+  },
+  {
+    "listing_id": "L-1017",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Honda CR-V EX - low km",
+    "vin": "2HKRW2H53KH442102",
+    "price_cad": 34012,
+    "km": 56331,
+    "listed_at": "2026-10-05",
+    "colour": "Black"
+  },
+  {
+    "listing_id": "L-1018",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Ford Escape SEL, clean history",
+    "vin": "1FMCU9HD0KUA10337",
+    "price_cad": 30093,
+    "km": 70006,
+    "listed_at": "2026-09-25",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1019",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Honda CR-V EX - one owner",
+    "vin": "2HKRW2H51KH786513",
+    "price_cad": 26750,
+    "km": 89048,
+    "listed_at": "2026-09-27",
+    "colour": "Black"
+  },
+  {
+    "listing_id": "L-1020",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Honda Civic LX - one owner",
+    "vin": "2HGFC2F55KH961015",
+    "price_cad": 21166,
+    "km": 56787,
+    "listed_at": "2026-09-25",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1021",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Jeep Grand Cherokee Overland - low km",
+    "vin": "1C4RJFBG4KC285028",
+    "price_cad": 34418,
+    "km": 63979,
+    "listed_at": "2026-09-30",
+    "colour": "Green"
+  },
+  {
+    "listing_id": "L-1022",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Hyundai Elantra Limited - low km",
+    "vin": "5NPD84LF9KH780510",
+    "price_cad": 22280,
+    "km": 113864,
+    "listed_at": "2026-09-17",
+    "colour": "Silver"
+  },
+  {
+    "listing_id": "L-1023",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Chevrolet Silverado High Country - certified",
+    "vin": "3GCUYDED5KG220679",
+    "price_cad": 21451,
+    "km": 37341,
+    "listed_at": "2026-10-02",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1024",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Toyota Corolla XSE",
+    "vin": "2T1BURHE1KC916129",
+    "price_cad": 20984,
+    "km": 52204,
+    "listed_at": "2026-09-15",
+    "colour": "Silver"
+  },
+  {
+    "listing_id": "L-1025",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Nissan Rogue SV - certified",
+    "vin": "5N1AT2MV8KC279014",
+    "price_cad": 30616,
+    "km": 51168,
+    "listed_at": "2026-09-18",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1026",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Ford F-150 XLT - certified",
+    "vin": "1FTEW1EP0KFA78259",
+    "price_cad": 25761,
+    "km": 103211,
+    "listed_at": "2026-09-18",
+    "colour": "Black"
+  },
+  {
+    "listing_id": "L-1027",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Hyundai Elantra SEL - one owner",
+    "vin": "5NPD84LFXKH796098",
+    "price_cad": 27388,
+    "km": 33209,
+    "listed_at": "2026-09-28",
+    "colour": "Blue"
+  },
+  {
+    "listing_id": "L-1028",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Volkswagen Jetta SE - certified",
+    "vin": "3VWC57BU5KM335842",
+    "price_cad": 26257,
+    "km": 66513,
+    "listed_at": "2026-09-17",
+    "colour": "Blue"
+  },
+  {
+    "listing_id": "L-1029",
+    "seller": "Lot 03 · Kingston, ON",
+    "title": "2019 Volkswagen Jetta GLI - low km",
+    "vin": "3VWC57BU9KM951446",
+    "price_cad": 34657,
+    "km": 94748,
+    "listed_at": "2026-09-21",
+    "colour": "Blue"
+  },
+  {
+    "listing_id": "L-1030",
+    "seller": "Lot 22 · Guelph, ON",
+    "title": "2019 Ram 1500 Big Horn - one owner",
+    "vin": "1C6SRFFTXKN374373",
+    "price_cad": 30557,
+    "km": 96171,
+    "listed_at": "2026-10-01",
+    "colour": "Grey"
+  },
+  {
+    "listing_id": "L-1031",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Nissan Rogue SL - low km",
+    "vin": "5N1AT2MV4KC638567",
+    "price_cad": 24981,
+    "km": 62996,
+    "listed_at": "2026-10-02",
+    "colour": "Red"
+  },
+  {
+    "listing_id": "L-1032",
+    "seller": "Lot 22 · Guelph, ON",
+    "title": "2019 Chevrolet Silverado High Country, winter tires included",
+    "vin": "3GCUYDED8KG659536",
+    "price_cad": 33225,
+    "km": 33437,
+    "listed_at": "2026-09-17",
+    "colour": "Black"
+  },
+  {
+    "listing_id": "L-1033",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Toyota RAV4 XLE - one owner",
+    "vin": "2T3W1RFV3KC555765",
+    "price_cad": 27295,
+    "km": 69199,
+    "listed_at": "2026-10-01",
+    "colour": "Silver"
+  },
+  {
+    "listing_id": "L-1034",
+    "seller": "Lot 22 · Guelph, ON",
+    "title": "2019 Jeep Grand Cherokee Limited - certified",
+    "vin": "1C4RJFBG1KC127391",
+    "price_cad": 31944,
+    "km": 38901,
+    "listed_at": "2026-09-25",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1035",
+    "seller": "Lot 03 · Kingston, ON",
+    "title": "2019 Dodge Grand Caravan GT - low km",
+    "vin": "2C4RDGCG5KR783631",
+    "price_cad": 29609,
+    "km": 47492,
+    "listed_at": "2026-09-26",
+    "colour": "Silver"
+  },
+  {
+    "listing_id": "L-1036",
+    "seller": "Lot 07 · Hamilton, ON",
+    "title": "2019 Ford Escape SEL",
+    "vin": "1FMCU9HD4KUA66765",
+    "price_cad": 28974,
+    "km": 63640,
+    "listed_at": "2026-09-17",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1037",
+    "seller": "Lot 25 · Oshawa, ON",
+    "title": "2019 Ford F-150 XLT - low km",
+    "vin": "1FTEW1EP1KFA17647",
+    "price_cad": 28670,
+    "km": 105681,
+    "listed_at": "2026-10-03",
+    "colour": "White"
+  },
+  {
+    "listing_id": "L-1038",
+    "seller": "Lot 03 · Kingston, ON",
+    "title": "2019 Dodge Grand Caravan SXT, winter tires included",
+    "vin": "2C4RDGCG1KR775946",
+    "price_cad": 25418,
+    "km": 94385,
+    "listed_at": "2026-10-05",
+    "colour": "Black"
+  }
+]

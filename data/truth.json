@@ -1,0 +1,1085 @@
+{
+  "synthetic": true,
+  "note": "Synthetic truth labels for the synthetic sources in this folder. Any match to a real vehicle is coincidental.",
+  "cases": {
+    "hero": "The Ram 1500 across four sources",
+    "classic-vs-new-gen": "Classic vs new generation",
+    "fleet-twins": "Fleet twins",
+    "pasted-vin": "Pasted VIN",
+    "io-typo": "Letter O typed for zero",
+    "substitution-typo": "One mistyped character",
+    "vin-less-repost": "Repost without a VIN",
+    "no-registry": "No registry record",
+    "colour-conflict": "Registry vs listing colour",
+    "new-registration": "First registered in the October drop",
+    "plain": "No planted issue"
+  },
+  "vehicles": {
+    "1C4RJFBG1KC127391": {
+      "make": "Jeep",
+      "model": "Grand Cherokee",
+      "modelYear": 2019,
+      "trim": "Limited",
+      "colour": "White",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "1C4RJFBG4KC285028": {
+      "make": "Jeep",
+      "model": "Grand Cherokee",
+      "modelYear": 2019,
+      "trim": "Limited",
+      "colour": "Green",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "1C4RJFBG8KC849800": {
+      "make": "Jeep",
+      "model": "Grand Cherokee",
+      "modelYear": 2019,
+      "trim": "Limited",
+      "colour": "Green",
+      "registeredProvince": "ON",
+      "caseTag": "new-registration"
+    },
+    "1C6RR7LT5KS506191": {
+      "make": "Ram",
+      "model": "1500",
+      "modelYear": 2019,
+      "trim": "Classic DS",
+      "colour": "Red",
+      "registeredProvince": "QC",
+      "caseTag": "plain"
+    },
+    "1C6RR7LT6KS615601": {
+      "make": "Ram",
+      "model": "1500",
+      "modelYear": 2019,
+      "trim": "Classic DS",
+      "colour": "Black",
+      "registeredProvince": "ON",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "1C6RR7LTXKS612345": {
+      "make": "Ram",
+      "model": "1500",
+      "modelYear": 2019,
+      "trim": "Classic DS",
+      "colour": "White",
+      "registeredProvince": "ON",
+      "caseTag": "hero"
+    },
+    "1C6SRFFT0KN564683": {
+      "make": "Ram",
+      "model": "1500",
+      "modelYear": 2019,
+      "trim": "Big Horn",
+      "colour": "Blue",
+      "registeredProvince": "ON",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "1C6SRFFTXKN374373": {
+      "make": "Ram",
+      "model": "1500",
+      "modelYear": 2019,
+      "trim": "Big Horn",
+      "colour": "Grey",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "1FMCU9HD0KUA10337": {
+      "make": "Ford",
+      "model": "Escape",
+      "modelYear": 2019,
+      "trim": "SEL",
+      "colour": "White",
+      "registeredProvince": "BC",
+      "caseTag": "plain"
+    },
+    "1FMCU9HD3KUA14463": {
+      "make": "Ford",
+      "model": "Escape",
+      "modelYear": 2019,
+      "trim": "SEL",
+      "colour": "Grey",
+      "registeredProvince": "ON",
+      "caseTag": "substitution-typo"
+    },
+    "1FMCU9HD4KUA66765": {
+      "make": "Ford",
+      "model": "Escape",
+      "modelYear": 2019,
+      "trim": "SEL",
+      "colour": "White",
+      "registeredProvince": "QC",
+      "caseTag": "plain"
+    },
+    "1FTEW1EP0KFA78259": {
+      "make": "Ford",
+      "model": "F-150",
+      "modelYear": 2019,
+      "trim": "XLT",
+      "colour": "Black",
+      "registeredProvince": "NS",
+      "caseTag": "plain"
+    },
+    "1FTEW1EP1KFA17647": {
+      "make": "Ford",
+      "model": "F-150",
+      "modelYear": 2019,
+      "trim": "XLT",
+      "colour": "White",
+      "registeredProvince": "AB",
+      "caseTag": "plain"
+    },
+    "1FTEW1EP7KFA10041": {
+      "make": "Ford",
+      "model": "F-150",
+      "modelYear": 2019,
+      "trim": "XLT",
+      "colour": "White",
+      "registeredProvince": "ON",
+      "caseTag": "fleet-twins"
+    },
+    "1FTEW1EP9KFA10042": {
+      "make": "Ford",
+      "model": "F-150",
+      "modelYear": 2019,
+      "trim": "XLT",
+      "colour": "White",
+      "registeredProvince": "ON",
+      "caseTag": "fleet-twins"
+    },
+    "2C4RDGCG1KR775946": {
+      "make": "Dodge",
+      "model": "Grand Caravan",
+      "modelYear": 2019,
+      "trim": "SXT",
+      "colour": "Black",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "2C4RDGCG5KR783631": {
+      "make": "Dodge",
+      "model": "Grand Caravan",
+      "modelYear": 2019,
+      "trim": "SXT",
+      "colour": "Silver",
+      "registeredProvince": "NS",
+      "caseTag": "plain"
+    },
+    "2C4RDGCG8KR976534": {
+      "make": "Dodge",
+      "model": "Grand Caravan",
+      "modelYear": 2019,
+      "trim": "SXT",
+      "colour": "Grey",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "2HGFC2F50KH185408": {
+      "make": "Honda",
+      "model": "Civic",
+      "modelYear": 2019,
+      "trim": "LX",
+      "colour": "Blue",
+      "registeredProvince": "AB",
+      "caseTag": "plain"
+    },
+    "2HGFC2F51KH974523": {
+      "make": "Honda",
+      "model": "Civic",
+      "modelYear": 2019,
+      "trim": "LX",
+      "colour": "White",
+      "registeredProvince": "ON",
+      "caseTag": "vin-less-repost"
+    },
+    "2HGFC2F55KH961015": {
+      "make": "Honda",
+      "model": "Civic",
+      "modelYear": 2019,
+      "trim": "LX",
+      "colour": "White",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "2HGFC2F58KH535349": {
+      "make": "Honda",
+      "model": "Civic",
+      "modelYear": 2019,
+      "trim": "LX",
+      "colour": "White",
+      "registeredProvince": "NS",
+      "caseTag": "plain"
+    },
+    "2HGFC2F59KH684613": {
+      "make": "Honda",
+      "model": "Civic",
+      "modelYear": 2019,
+      "trim": "LX",
+      "colour": "Blue",
+      "registeredProvince": "ON",
+      "caseTag": "colour-conflict"
+    },
+    "2HKRW2H51KH786513": {
+      "make": "Honda",
+      "model": "CR-V",
+      "modelYear": 2019,
+      "trim": "EX",
+      "colour": "Black",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "2HKRW2H51KH977459": {
+      "make": "Honda",
+      "model": "CR-V",
+      "modelYear": 2019,
+      "trim": "EX",
+      "colour": "Silver",
+      "registeredProvince": "NS",
+      "caseTag": "plain"
+    },
+    "2HKRW2H53KH442102": {
+      "make": "Honda",
+      "model": "CR-V",
+      "modelYear": 2019,
+      "trim": "EX",
+      "colour": "Black",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "2HKRW2H56KH102068": {
+      "make": "Honda",
+      "model": "CR-V",
+      "modelYear": 2019,
+      "trim": "EX",
+      "colour": "Black",
+      "registeredProvince": "MB",
+      "caseTag": "plain"
+    },
+    "2T1BURHE1KC916129": {
+      "make": "Toyota",
+      "model": "Corolla",
+      "modelYear": 2019,
+      "trim": "LE",
+      "colour": "Silver",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "2T1BURHE2KC485476": {
+      "make": "Toyota",
+      "model": "Corolla",
+      "modelYear": 2019,
+      "trim": "LE",
+      "colour": "Red",
+      "registeredProvince": "NS",
+      "caseTag": "plain"
+    },
+    "2T1BURHE3KC365993": {
+      "make": "Toyota",
+      "model": "Corolla",
+      "modelYear": 2019,
+      "trim": "LE",
+      "colour": "White",
+      "registeredProvince": "AB",
+      "caseTag": "new-registration"
+    },
+    "2T1BURHE4KC296456": {
+      "make": "Toyota",
+      "model": "Corolla",
+      "modelYear": 2019,
+      "trim": "LE",
+      "colour": "Grey",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "2T3W1RFV2KC364211": {
+      "make": "Toyota",
+      "model": "RAV4",
+      "modelYear": 2019,
+      "trim": "XLE",
+      "colour": "Blue",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "2T3W1RFV3KC555765": {
+      "make": "Toyota",
+      "model": "RAV4",
+      "modelYear": 2019,
+      "trim": "XLE",
+      "colour": "Silver",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "2T3W1RFV6KC385952": {
+      "make": "Toyota",
+      "model": "RAV4",
+      "modelYear": 2019,
+      "trim": "XLE",
+      "colour": "Silver",
+      "registeredProvince": "ON",
+      "caseTag": "pasted-vin"
+    },
+    "2T3W1RFV6KC779810": {
+      "make": "Toyota",
+      "model": "RAV4",
+      "modelYear": 2019,
+      "trim": "XLE",
+      "colour": "White",
+      "registeredProvince": "ON",
+      "caseTag": "pasted-vin"
+    },
+    "3GCUYDED0KG208150": {
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "modelYear": 2019,
+      "trim": "LT",
+      "colour": "Red",
+      "registeredProvince": "AB",
+      "caseTag": "io-typo"
+    },
+    "3GCUYDED5KG220679": {
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "modelYear": 2019,
+      "trim": "LT",
+      "colour": "White",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "3GCUYDED8KG659536": {
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "modelYear": 2019,
+      "trim": "LT",
+      "colour": "Black",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "3VWC57BU5KM335842": {
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "modelYear": 2019,
+      "trim": "SE",
+      "colour": "Blue",
+      "registeredProvince": "BC",
+      "caseTag": "plain"
+    },
+    "3VWC57BU9KM604277": {
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "modelYear": 2019,
+      "trim": "SE",
+      "colour": "Blue",
+      "registeredProvince": "QC",
+      "caseTag": "plain"
+    },
+    "3VWC57BU9KM951446": {
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "modelYear": 2019,
+      "trim": "SE",
+      "colour": "Blue",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "5N1AT2MV4KC638567": {
+      "make": "Nissan",
+      "model": "Rogue",
+      "modelYear": 2019,
+      "trim": "SV",
+      "colour": "Red",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "5N1AT2MV7KC282437": {
+      "make": "Nissan",
+      "model": "Rogue",
+      "modelYear": 2019,
+      "trim": "SV",
+      "colour": "Grey",
+      "registeredProvince": null,
+      "caseTag": "no-registry"
+    },
+    "5N1AT2MV8KC279014": {
+      "make": "Nissan",
+      "model": "Rogue",
+      "modelYear": 2019,
+      "trim": "SV",
+      "colour": "White",
+      "registeredProvince": "MB",
+      "caseTag": "plain"
+    },
+    "5NPD84LF8KH121320": {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "modelYear": 2019,
+      "trim": "SEL",
+      "colour": "White",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "5NPD84LF9KH780510": {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "modelYear": 2019,
+      "trim": "SEL",
+      "colour": "Silver",
+      "registeredProvince": "QC",
+      "caseTag": "plain"
+    },
+    "5NPD84LFXKH796098": {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "modelYear": 2019,
+      "trim": "SEL",
+      "colour": "Blue",
+      "registeredProvince": "ON",
+      "caseTag": "plain"
+    },
+    "KM8K2CABXPU543214": {
+      "make": "Hyundai",
+      "model": "Kona",
+      "modelYear": 2023,
+      "trim": "SE",
+      "colour": "Green",
+      "registeredProvince": null,
+      "caseTag": "no-registry"
+    }
+  },
+  "records": {
+    "listing:L-1001": {
+      "vin": "1C6RR7LTXKS612345",
+      "caseTag": "hero"
+    },
+    "listing:L-1002": {
+      "vin": "1C6RR7LT6KS615601",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "listing:L-1003": {
+      "vin": "1C6SRFFT0KN564683",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "listing:L-1004": {
+      "vin": "1C6SRFFT0KN564683",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "listing:L-1005": {
+      "vin": "1FTEW1EP9KFA10042",
+      "caseTag": "fleet-twins"
+    },
+    "listing:L-1006": {
+      "vin": "2T3W1RFV6KC385952",
+      "caseTag": "pasted-vin"
+    },
+    "listing:L-1007": {
+      "vin": "2T3W1RFV6KC779810",
+      "caseTag": "pasted-vin"
+    },
+    "listing:L-1008": {
+      "vin": "1FMCU9HD3KUA14463",
+      "caseTag": "substitution-typo"
+    },
+    "listing:L-1009": {
+      "vin": "2HGFC2F51KH974523",
+      "caseTag": "vin-less-repost"
+    },
+    "listing:L-1010": {
+      "vin": "2HGFC2F51KH974523",
+      "caseTag": "vin-less-repost"
+    },
+    "listing:L-1011": {
+      "vin": "2HGFC2F59KH684613",
+      "caseTag": "colour-conflict"
+    },
+    "listing:L-1012": {
+      "vin": "KM8K2CABXPU543214",
+      "caseTag": "no-registry"
+    },
+    "listing:L-1013": {
+      "vin": "5N1AT2MV7KC282437",
+      "caseTag": "no-registry"
+    },
+    "listing:L-1014": {
+      "vin": "2HGFC2F58KH535349",
+      "caseTag": "plain"
+    },
+    "listing:L-1015": {
+      "vin": "2T1BURHE4KC296456",
+      "caseTag": "plain"
+    },
+    "listing:L-1016": {
+      "vin": "2HKRW2H56KH102068",
+      "caseTag": "plain"
+    },
+    "listing:L-1017": {
+      "vin": "2HKRW2H53KH442102",
+      "caseTag": "plain"
+    },
+    "listing:L-1018": {
+      "vin": "1FMCU9HD0KUA10337",
+      "caseTag": "plain"
+    },
+    "listing:L-1019": {
+      "vin": "2HKRW2H51KH786513",
+      "caseTag": "plain"
+    },
+    "listing:L-1020": {
+      "vin": "2HGFC2F55KH961015",
+      "caseTag": "plain"
+    },
+    "listing:L-1021": {
+      "vin": "1C4RJFBG4KC285028",
+      "caseTag": "plain"
+    },
+    "listing:L-1022": {
+      "vin": "5NPD84LF9KH780510",
+      "caseTag": "plain"
+    },
+    "listing:L-1023": {
+      "vin": "3GCUYDED5KG220679",
+      "caseTag": "plain"
+    },
+    "listing:L-1024": {
+      "vin": "2T1BURHE1KC916129",
+      "caseTag": "plain"
+    },
+    "listing:L-1025": {
+      "vin": "5N1AT2MV8KC279014",
+      "caseTag": "plain"
+    },
+    "listing:L-1026": {
+      "vin": "1FTEW1EP0KFA78259",
+      "caseTag": "plain"
+    },
+    "listing:L-1027": {
+      "vin": "5NPD84LFXKH796098",
+      "caseTag": "plain"
+    },
+    "listing:L-1028": {
+      "vin": "3VWC57BU5KM335842",
+      "caseTag": "plain"
+    },
+    "listing:L-1029": {
+      "vin": "3VWC57BU9KM951446",
+      "caseTag": "plain"
+    },
+    "listing:L-1030": {
+      "vin": "1C6SRFFTXKN374373",
+      "caseTag": "plain"
+    },
+    "listing:L-1031": {
+      "vin": "5N1AT2MV4KC638567",
+      "caseTag": "plain"
+    },
+    "listing:L-1032": {
+      "vin": "3GCUYDED8KG659536",
+      "caseTag": "plain"
+    },
+    "listing:L-1033": {
+      "vin": "2T3W1RFV3KC555765",
+      "caseTag": "plain"
+    },
+    "listing:L-1034": {
+      "vin": "1C4RJFBG1KC127391",
+      "caseTag": "plain"
+    },
+    "listing:L-1035": {
+      "vin": "2C4RDGCG5KR783631",
+      "caseTag": "plain"
+    },
+    "listing:L-1036": {
+      "vin": "1FMCU9HD4KUA66765",
+      "caseTag": "plain"
+    },
+    "listing:L-1037": {
+      "vin": "1FTEW1EP1KFA17647",
+      "caseTag": "plain"
+    },
+    "listing:L-1038": {
+      "vin": "2C4RDGCG1KR775946",
+      "caseTag": "plain"
+    },
+    "module_read:M-2001": {
+      "vin": "1C6RR7LTXKS612345",
+      "caseTag": "hero"
+    },
+    "module_read:M-2002": {
+      "vin": "1C6RR7LT6KS615601",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "module_read:M-2003": {
+      "vin": "1C6SRFFT0KN564683",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "module_read:M-2004": {
+      "vin": "3GCUYDED0KG208150",
+      "caseTag": "io-typo"
+    },
+    "module_read:M-2005": {
+      "vin": "KM8K2CABXPU543214",
+      "caseTag": "no-registry"
+    },
+    "module_read:M-2006": {
+      "vin": "1FTEW1EP7KFA10041",
+      "caseTag": "fleet-twins"
+    },
+    "module_read:M-2007": {
+      "vin": "1FTEW1EP9KFA10042",
+      "caseTag": "fleet-twins"
+    },
+    "module_read:M-2008": {
+      "vin": "2HGFC2F55KH961015",
+      "caseTag": "plain"
+    },
+    "module_read:M-2009": {
+      "vin": "5N1AT2MV4KC638567",
+      "caseTag": "plain"
+    },
+    "module_read:M-2010": {
+      "vin": "2HGFC2F58KH535349",
+      "caseTag": "plain"
+    },
+    "module_read:M-2011": {
+      "vin": "1C6SRFFTXKN374373",
+      "caseTag": "plain"
+    },
+    "module_read:M-2012": {
+      "vin": "2T3W1RFV2KC364211",
+      "caseTag": "plain"
+    },
+    "module_read:M-2013": {
+      "vin": "2C4RDGCG8KR976534",
+      "caseTag": "plain"
+    },
+    "module_read:M-2014": {
+      "vin": "2T3W1RFV3KC555765",
+      "caseTag": "plain"
+    },
+    "module_read:M-2015": {
+      "vin": "5NPD84LF9KH780510",
+      "caseTag": "plain"
+    },
+    "module_read:M-2016": {
+      "vin": "2T1BURHE4KC296456",
+      "caseTag": "plain"
+    },
+    "module_read:M-2017": {
+      "vin": "1C6RR7LT5KS506191",
+      "caseTag": "plain"
+    },
+    "module_read:M-2018": {
+      "vin": "2HGFC2F59KH684613",
+      "caseTag": "colour-conflict"
+    },
+    "module_read:M-2019": {
+      "vin": "1C4RJFBG4KC285028",
+      "caseTag": "plain"
+    },
+    "module_read:M-2020": {
+      "vin": "2T1BURHE1KC916129",
+      "caseTag": "plain"
+    },
+    "module_read:M-2021": {
+      "vin": "2HGFC2F50KH185408",
+      "caseTag": "plain"
+    },
+    "module_read:M-2022": {
+      "vin": "2HKRW2H51KH977459",
+      "caseTag": "plain"
+    },
+    "module_read:M-2023": {
+      "vin": "1FMCU9HD0KUA10337",
+      "caseTag": "plain"
+    },
+    "module_read:M-2024": {
+      "vin": "1FTEW1EP0KFA78259",
+      "caseTag": "plain"
+    },
+    "module_read:M-2025": {
+      "vin": "1FMCU9HD3KUA14463",
+      "caseTag": "substitution-typo"
+    },
+    "module_read:M-2026": {
+      "vin": "2C4RDGCG1KR775946",
+      "caseTag": "plain"
+    },
+    "module_read:M-2027": {
+      "vin": "3VWC57BU9KM951446",
+      "caseTag": "plain"
+    },
+    "module_read:M-2028": {
+      "vin": "5N1AT2MV8KC279014",
+      "caseTag": "plain"
+    },
+    "module_read:M-2029": {
+      "vin": "3GCUYDED8KG659536",
+      "caseTag": "plain"
+    },
+    "module_read:M-2030": {
+      "vin": "3VWC57BU5KM335842",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:1": {
+      "vin": "3GCUYDED5KG220679",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:10": {
+      "vin": "1FTEW1EP1KFA17647",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:11": {
+      "vin": "3VWC57BU9KM951446",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:12": {
+      "vin": "2C4RDGCG1KR775946",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:13": {
+      "vin": "5N1AT2MV8KC279014",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:14": {
+      "vin": "1C6SRFFTXKN374373",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:15": {
+      "vin": "1C6RR7LT6KS615601",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "registration:2026-09-01:16": {
+      "vin": "1FMCU9HD3KUA14463",
+      "caseTag": "substitution-typo"
+    },
+    "registration:2026-09-01:17": {
+      "vin": "5NPD84LFXKH796098",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:18": {
+      "vin": "2HKRW2H51KH786513",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:19": {
+      "vin": "1C4RJFBG4KC285028",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:2": {
+      "vin": "2HGFC2F59KH684613",
+      "caseTag": "colour-conflict"
+    },
+    "registration:2026-09-01:20": {
+      "vin": "2T3W1RFV6KC779810",
+      "caseTag": "pasted-vin"
+    },
+    "registration:2026-09-01:21": {
+      "vin": "1FMCU9HD0KUA10337",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:22": {
+      "vin": "1C4RJFBG1KC127391",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:23": {
+      "vin": "1FTEW1EP9KFA10042",
+      "caseTag": "fleet-twins"
+    },
+    "registration:2026-09-01:24": {
+      "vin": "1C6SRFFT0KN564683",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "registration:2026-09-01:25": {
+      "vin": "2HGFC2F50KH185408",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:26": {
+      "vin": "1FMCU9HD4KUA66765",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:27": {
+      "vin": "2T1BURHE4KC296456",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:28": {
+      "vin": "2C4RDGCG8KR976534",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:29": {
+      "vin": "1C6RR7LT5KS506191",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:3": {
+      "vin": "5NPD84LF8KH121320",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:30": {
+      "vin": "2T1BURHE2KC485476",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:31": {
+      "vin": "2HGFC2F51KH974523",
+      "caseTag": "vin-less-repost"
+    },
+    "registration:2026-09-01:32": {
+      "vin": "2HKRW2H53KH442102",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:33": {
+      "vin": "3GCUYDED8KG659536",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:34": {
+      "vin": "3VWC57BU5KM335842",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:35": {
+      "vin": "1FTEW1EP7KFA10041",
+      "caseTag": "fleet-twins"
+    },
+    "registration:2026-09-01:36": {
+      "vin": "1C6RR7LTXKS612345",
+      "caseTag": "hero"
+    },
+    "registration:2026-09-01:37": {
+      "vin": "2C4RDGCG5KR783631",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:38": {
+      "vin": "2HKRW2H56KH102068",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:39": {
+      "vin": "2T3W1RFV6KC385952",
+      "caseTag": "pasted-vin"
+    },
+    "registration:2026-09-01:4": {
+      "vin": "2T3W1RFV2KC364211",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:40": {
+      "vin": "5NPD84LF9KH780510",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:41": {
+      "vin": "1FTEW1EP0KFA78259",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:42": {
+      "vin": "5N1AT2MV4KC638567",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:43": {
+      "vin": "2HGFC2F58KH535349",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:44": {
+      "vin": "3GCUYDED0KG208150",
+      "caseTag": "io-typo"
+    },
+    "registration:2026-09-01:5": {
+      "vin": "2HGFC2F55KH961015",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:6": {
+      "vin": "2T1BURHE1KC916129",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:7": {
+      "vin": "2HKRW2H51KH977459",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:8": {
+      "vin": "2T3W1RFV3KC555765",
+      "caseTag": "plain"
+    },
+    "registration:2026-09-01:9": {
+      "vin": "3VWC57BU9KM604277",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:1": {
+      "vin": "5NPD84LF8KH121320",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:10": {
+      "vin": "1FTEW1EP7KFA10041",
+      "caseTag": "fleet-twins"
+    },
+    "registration:2026-10-01:11": {
+      "vin": "2HGFC2F51KH974523",
+      "caseTag": "vin-less-repost"
+    },
+    "registration:2026-10-01:12": {
+      "vin": "2HKRW2H56KH102068",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:13": {
+      "vin": "5NPD84LFXKH796098",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:14": {
+      "vin": "2T3W1RFV6KC385952",
+      "caseTag": "pasted-vin"
+    },
+    "registration:2026-10-01:15": {
+      "vin": "2HKRW2H51KH977459",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:16": {
+      "vin": "2T1BURHE2KC485476",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:17": {
+      "vin": "2T3W1RFV3KC555765",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:18": {
+      "vin": "1C6SRFFTXKN374373",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:19": {
+      "vin": "1C4RJFBG4KC285028",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:2": {
+      "vin": "1C4RJFBG8KC849800",
+      "caseTag": "new-registration"
+    },
+    "registration:2026-10-01:20": {
+      "vin": "1C6SRFFT0KN564683",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "registration:2026-10-01:21": {
+      "vin": "2T1BURHE4KC296456",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:22": {
+      "vin": "2C4RDGCG1KR775946",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:23": {
+      "vin": "3VWC57BU9KM604277",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:24": {
+      "vin": "3GCUYDED0KG208150",
+      "caseTag": "io-typo"
+    },
+    "registration:2026-10-01:25": {
+      "vin": "1C4RJFBG1KC127391",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:26": {
+      "vin": "1FTEW1EP0KFA78259",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:27": {
+      "vin": "1FMCU9HD3KUA14463",
+      "caseTag": "substitution-typo"
+    },
+    "registration:2026-10-01:28": {
+      "vin": "1FTEW1EP9KFA10042",
+      "caseTag": "fleet-twins"
+    },
+    "registration:2026-10-01:29": {
+      "vin": "2T1BURHE3KC365993",
+      "caseTag": "new-registration"
+    },
+    "registration:2026-10-01:3": {
+      "vin": "3VWC57BU5KM335842",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:30": {
+      "vin": "5NPD84LF9KH780510",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:31": {
+      "vin": "2HGFC2F59KH684613",
+      "caseTag": "colour-conflict"
+    },
+    "registration:2026-10-01:32": {
+      "vin": "2T3W1RFV2KC364211",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:33": {
+      "vin": "1C6RR7LT5KS506191",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:34": {
+      "vin": "5N1AT2MV4KC638567",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:35": {
+      "vin": "1FTEW1EP1KFA17647",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:36": {
+      "vin": "2HGFC2F50KH185408",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:37": {
+      "vin": "1C6RR7LTXKS612345",
+      "caseTag": "hero"
+    },
+    "registration:2026-10-01:38": {
+      "vin": "1FMCU9HD0KUA10337",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:39": {
+      "vin": "3VWC57BU9KM951446",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:4": {
+      "vin": "2HGFC2F58KH535349",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:40": {
+      "vin": "2C4RDGCG8KR976534",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:41": {
+      "vin": "2HGFC2F55KH961015",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:42": {
+      "vin": "1C6RR7LT6KS615601",
+      "caseTag": "classic-vs-new-gen"
+    },
+    "registration:2026-10-01:43": {
+      "vin": "2T3W1RFV6KC779810",
+      "caseTag": "pasted-vin"
+    },
+    "registration:2026-10-01:44": {
+      "vin": "2HKRW2H51KH786513",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:45": {
+      "vin": "1FMCU9HD4KUA66765",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:46": {
+      "vin": "5N1AT2MV8KC279014",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:5": {
+      "vin": "2C4RDGCG5KR783631",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:6": {
+      "vin": "3GCUYDED8KG659536",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:7": {
+      "vin": "2T1BURHE1KC916129",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:8": {
+      "vin": "2HKRW2H53KH442102",
+      "caseTag": "plain"
+    },
+    "registration:2026-10-01:9": {
+      "vin": "3GCUYDED5KG220679",
+      "caseTag": "plain"
+    }
+  }
+}

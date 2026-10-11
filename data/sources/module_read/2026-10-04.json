@@ -1,0 +1,242 @@
+[
+  {
+    "read_id": "M-2001",
+    "device_id": "dev-463",
+    "vin": "1C6RR7LTXKS612345",
+    "odometer_km": 91240,
+    "read_at": "2026-09-20T13:27:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2002",
+    "device_id": "dev-599",
+    "vin": "1C6RR7LT6KS615601",
+    "odometer_km": 65400,
+    "read_at": "2026-09-30T11:57:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2003",
+    "device_id": "dev-413",
+    "vin": "1C6SRFFT0KN564683",
+    "odometer_km": 63100,
+    "read_at": "2026-09-29T14:08:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2004",
+    "device_id": "dev-484",
+    "vin": "3GCUYDED0KG208150",
+    "odometer_km": 86160,
+    "read_at": "2026-09-27T17:00:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2005",
+    "device_id": "dev-414",
+    "vin": "KM8K2CABXPU543214",
+    "odometer_km": 30367,
+    "read_at": "2026-09-24T16:09:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2006",
+    "device_id": "dev-331",
+    "vin": "1FTEW1EP7KFA10041",
+    "odometer_km": 37578,
+    "read_at": "2026-09-01T14:56:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2007",
+    "device_id": "dev-367",
+    "vin": "1FTEW1EP9KFA10042",
+    "odometer_km": 36933,
+    "read_at": "2026-08-20T15:10:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2008",
+    "device_id": "dev-539",
+    "vin": "2HGFC2F55KH961015",
+    "odometer_km": 55189,
+    "read_at": "2026-08-22T14:33:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2009",
+    "device_id": "dev-823",
+    "vin": "5N1AT2MV4KC638567",
+    "odometer_km": 62268,
+    "read_at": "2026-09-06T12:32:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2010",
+    "device_id": "dev-680",
+    "vin": "2HGFC2F58KH535349",
+    "odometer_km": 60325,
+    "read_at": "2026-09-03T17:51:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2011",
+    "device_id": "dev-116",
+    "vin": "1C6SRFFTXKN374373",
+    "odometer_km": 95720,
+    "read_at": "2026-09-20T09:39:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2012",
+    "device_id": "dev-465",
+    "vin": "2T3W1RFV2KC364211",
+    "odometer_km": 48463,
+    "read_at": "2026-09-15T16:57:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2013",
+    "device_id": "dev-110",
+    "vin": "2C4RDGCG8KR976534",
+    "odometer_km": 89393,
+    "read_at": "2026-08-21T13:27:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2014",
+    "device_id": "dev-261",
+    "vin": "2T3W1RFV3KC555765",
+    "odometer_km": 68299,
+    "read_at": "2026-09-11T17:49:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2015",
+    "device_id": "dev-597",
+    "vin": "5NPD84LF9KH780510",
+    "odometer_km": 113360,
+    "read_at": "2026-09-08T08:26:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2016",
+    "device_id": "dev-310",
+    "vin": "2T1BURHE4KC296456",
+    "odometer_km": 75080,
+    "read_at": "2026-09-24T17:47:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2017",
+    "device_id": "dev-435",
+    "vin": "1C6RR7LT5KS506191",
+    "odometer_km": 75613,
+    "read_at": "2026-09-18T14:29:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2018",
+    "device_id": "dev-250",
+    "vin": "2HGFC2F59KH684613",
+    "odometer_km": 36664,
+    "read_at": "2026-08-24T08:19:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2019",
+    "device_id": "dev-514",
+    "vin": "1C4RJFBG4KC285028",
+    "odometer_km": 62779,
+    "read_at": "2026-08-31T12:47:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2020",
+    "device_id": "dev-742",
+    "vin": "2T1BURHE1KC916129",
+    "odometer_km": 52100,
+    "read_at": "2026-09-13T08:32:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2021",
+    "device_id": "dev-291",
+    "vin": "2HGFC2F50KH185408",
+    "odometer_km": 50728,
+    "read_at": "2026-09-01T15:45:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2022",
+    "device_id": "dev-987",
+    "vin": "2HKRW2H51KH977459",
+    "odometer_km": 96597,
+    "read_at": "2026-09-11T18:28:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2023",
+    "device_id": "dev-490",
+    "vin": "1FMCU9HD0KUA10337",
+    "odometer_km": 68596,
+    "read_at": "2026-08-26T11:03:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2024",
+    "device_id": "dev-663",
+    "vin": "1FTEW1EP0KFA78259",
+    "odometer_km": 102860,
+    "read_at": "2026-09-05T12:13:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2025",
+    "device_id": "dev-294",
+    "vin": "1FMCU9HD3KUA14463",
+    "odometer_km": 57797,
+    "read_at": "2026-08-21T13:25:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2026",
+    "device_id": "dev-171",
+    "vin": "2C4RDGCG1KR775946",
+    "odometer_km": 93449,
+    "read_at": "2026-09-11T16:46:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2027",
+    "device_id": "dev-692",
+    "vin": "3VWC57BU9KM951446",
+    "odometer_km": 94808,
+    "read_at": "2026-09-22T16:00:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2028",
+    "device_id": "dev-866",
+    "vin": "5N1AT2MV8KC279014",
+    "odometer_km": 50736,
+    "read_at": "2026-09-09T17:21:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2029",
+    "device_id": "dev-151",
+    "vin": "3GCUYDED8KG659536",
+    "odometer_km": 33563,
+    "read_at": "2026-09-20T16:38:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  },
+  {
+    "read_id": "M-2030",
+    "device_id": "dev-349",
+    "vin": "3VWC57BU5KM335842",
+    "odometer_km": 67063,
+    "read_at": "2026-09-28T10:55:00Z",
+    "protocol": "OBD-II mode 09 PID 02 + odometer PID"
+  }
+]

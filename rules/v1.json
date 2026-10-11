@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "matching": { "kmBand": 5000 },
+  "fields": {
+    "make": { "id": "make.pattern-then-registry", "version": 1, "kind": "precedence", "sources": ["vin_pattern", "registration", "listing"], "allowedSources": ["vin_pattern", "registration", "listing"], "note": "The manufacturer pattern names the make. Registry and listing spellings go through the alias table and stay as also-reported." },
+    "model": { "id": "model.pattern-then-registry", "version": 1, "kind": "precedence", "sources": ["vin_pattern", "registration", "listing"], "allowedSources": ["vin_pattern", "registration", "listing"], "note": "Same order as make." },
+    "modelYear": { "id": "year.vin-position-10", "version": 1, "kind": "precedence", "sources": ["vin_pattern", "registration", "listing"], "allowedSources": ["vin_pattern", "registration", "listing"], "note": "VIN position 10 encodes the model year." },
+    "trim": { "id": "trim.pattern-only", "version": 1, "kind": "precedence", "sources": ["vin_pattern"], "allowedSources": ["vin_pattern", "listing"], "note": "Trim comes only from the VIN pattern. Seller words go to observedTrim. A pattern that lists alternatives gives no value." },
+    "series": { "id": "series.pattern-only", "version": 1, "kind": "precedence", "sources": ["vin_pattern"], "allowedSources": ["vin_pattern"], "note": "Decoded only." },
+    "body": { "id": "body.pattern-only", "version": 1, "kind": "precedence", "sources": ["vin_pattern"], "allowedSources": ["vin_pattern"], "note": "Decoded only." },
+    "drive": { "id": "drive.pattern-only", "version": 1, "kind": "precedence", "sources": ["vin_pattern"], "allowedSources": ["vin_pattern"], "note": "Decoded only." },
+    "engine": { "id": "engine.pattern-only", "version": 1, "kind": "precedence", "sources": ["vin_pattern"], "allowedSources": ["vin_pattern"], "note": "Decoded only." },
+    "fuel": { "id": "fuel.pattern-only", "version": 1, "kind": "precedence", "sources": ["vin_pattern"], "allowedSources": ["vin_pattern"], "note": "Decoded only." },
+    "plant": { "id": "plant.pattern-only", "version": 1, "kind": "precedence", "sources": ["vin_pattern"], "allowedSources": ["vin_pattern"], "note": "VIN position 11 names the assembly plant." },
+    "colour": { "id": "colour.registry-then-listing", "version": 1, "kind": "precedence", "sources": ["registration", "listing"], "allowedSources": ["registration", "listing"], "note": "The registry wins, newest drop first. Listing colours stay as also-reported." },
+    "odometerKm": { "id": "odometer.latest-without-rollback", "version": 1, "kind": "latest_reading", "sources": ["registration", "module_read", "listing"], "allowedSources": ["registration", "module_read", "listing"], "note": "The newest reading wins unless it is below an earlier reading. Ties go to the higher tier." },
+    "registeredProvince": { "id": "province.registry-only", "version": 1, "kind": "precedence", "sources": ["registration"], "allowedSources": ["registration"], "note": "Only the registry knows where a vehicle is registered." },
+    "registrationDate": { "id": "registration-date.registry-only", "version": 1, "kind": "precedence", "sources": ["registration"], "allowedSources": ["registration"], "note": "Only the registry knows." },
+    "observedTrim": { "id": "observed-trim.latest-listing", "version": 1, "kind": "precedence", "sources": ["listing"], "allowedSources": ["listing"], "note": "What the seller wrote, kept apart from the decoded trim." }
+  }
+}

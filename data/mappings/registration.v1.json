@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "source": "registration",
+  "header": ["vin", "model_year", "make", "model", "colour", "registration_date", "odometer_km", "odometer_date", "province"],
+  "columns": {
+    "vin": "vin",
+    "model_year": "model_year",
+    "make": "make",
+    "model": "model",
+    "colour": "colour",
+    "registration_date": "registration_date",
+    "odometer_km": "odometer_km",
+    "odometer_date": "odometer_date",
+    "province": "province"
+  },
+  "dateFormat": "YYYY-MM-DD"
+}

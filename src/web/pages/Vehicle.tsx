@@ -47,33 +47,36 @@ export function VehiclePage({ vin }: { vin: string }) {
         </div>
       </div>
 
-      <Card className="sticky top-14 z-10 mb-5" title="VIN" subtitle={hover ? `${FIELD_LABEL[hover]}: ${describePattern(f[hover])}` : 'Hover a decoded field to light the VIN characters its manufacturer pattern reads.'}>
-        <VinStrip vin={golden.vin} lit={lit} />
-      </Card>
+      {/* The VIN strip sticks while the golden table scrolls, and stops at the end of it. */}
+      <div className="mb-5">
+        <Card className="sticky top-14 z-10 mb-5" title="VIN" subtitle={hover ? `${FIELD_LABEL[hover]}: ${describePattern(f[hover])}` : 'Hover a decoded field to light the VIN characters its manufacturer pattern reads.'}>
+          <VinStrip vin={golden.vin} lit={lit} />
+        </Card>
 
-      <Card className="mb-5" padded={false} title="Golden record" subtitle="Each field: the winning value, its source and tier, the rule that picked it, and every other value a source reported.">
-        <table className="w-full table-fixed">
-          <colgroup>
-            <col className="w-[170px]" />
-            <col className="w-[200px]" />
-            <col className="w-[140px]" />
-            <col className="w-[300px]" />
-            <col />
-          </colgroup>
-          <thead className="border-b border-slate-100 bg-slate-50/60">
-            <tr>
-              <Th>Field</Th>
-              <Th>Value</Th>
-              <Th>Source</Th>
-              <Th>Rule</Th>
-              <Th>Also reported and why</Th>
-            </tr>
-          </thead>
-          <Group label="Decoded from the VIN pattern" fields={DECODED_FIELDS} golden={f} hover={hover} setHover={setHover} />
-          <Group label="Observed by sources" fields={OBSERVED_FIELDS} golden={f} hover={hover} setHover={setHover} />
-          <Group label="Seller text, kept apart from decoded fields" fields={['observedTrim']} golden={f} hover={hover} setHover={setHover} />
-        </table>
-      </Card>
+        <Card padded={false} title="Golden record" subtitle="Each field: the winning value, its source and tier, the rule that picked it, and every other value a source reported.">
+          <table className="w-full table-fixed">
+            <colgroup>
+              <col className="w-[170px]" />
+              <col className="w-[200px]" />
+              <col className="w-[140px]" />
+              <col className="w-[300px]" />
+              <col />
+            </colgroup>
+            <thead className="border-b border-slate-100 bg-slate-50/60">
+              <tr>
+                <Th>Field</Th>
+                <Th>Value</Th>
+                <Th>Source</Th>
+                <Th>Rule</Th>
+                <Th>Also reported and why</Th>
+              </tr>
+            </thead>
+            <Group label="Decoded from the VIN pattern" fields={DECODED_FIELDS} golden={f} hover={hover} setHover={setHover} />
+            <Group label="Observed by sources" fields={OBSERVED_FIELDS} golden={f} hover={hover} setHover={setHover} />
+            <Group label="Seller text, kept apart from decoded fields" fields={['observedTrim']} golden={f} hover={hover} setHover={setHover} />
+          </table>
+        </Card>
+      </div>
 
       <Card className="mb-5" title="Matched records" subtitle="Every link between records says why it was made." padded={false}>
         <div className="divide-y divide-slate-100">

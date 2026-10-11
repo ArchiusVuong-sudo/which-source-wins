@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import type { Summary } from '../shared/types';
 import { useApi } from './api';
 import { Badge, cx } from './components/ui';
@@ -18,6 +19,24 @@ const NAV: { page: Route['page']; label: string; to: Route }[] = [
 export function App() {
   const route = useRoute();
   const summary = useApi<Summary>('/summary');
+  const reloadSummary = summary.reload;
+  const routeKey = href(route);
+
+  // The header must never lag the page under it: refetch the summary on every route change (not
+  // only after this tab's own approve, rebuild or decision) and when the window regains focus.
+  const firstRoute = useRef(true);
+  useEffect(() => {
+    if (firstRoute.current) {
+      firstRoute.current = false;
+      return;
+    }
+    reloadSummary();
+  }, [routeKey, reloadSummary]);
+  useEffect(() => {
+    window.addEventListener('focus', reloadSummary);
+    return () => window.removeEventListener('focus', reloadSummary);
+  }, [reloadSummary]);
+
   const active = route.page === 'vehicle' ? 'vehicles' : route.page;
   const s = summary.data;
 

@@ -17,7 +17,7 @@ Full video: https://github.com/ArchiusVuong-sudo/which-source-wins/releases/down
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TB
   R["Registration file drops (synthetic CSV)"] --> L["Landing folder (SHA-256 keys)"]
   D["Dealer listings (synthetic JSON)"] --> L
   M["Vehicle module reads (synthetic OBD-II)"] --> L

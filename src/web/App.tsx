@@ -20,9 +20,10 @@ export function App() {
   const route = useRoute();
   const summary = useApi<Summary>('/summary');
   const reloadSummary = summary.reload;
-  const routeKey = href(route);
+  // One key per page (and per vehicle), so typing in a search box does not refetch on every key.
+  const routeKey = route.page === 'vehicle' ? `vehicle:${route.vin}` : route.page;
 
-  // The header must never lag the page under it: refetch the summary on every route change (not
+  // The header must never lag the page under it: refetch the summary on every page change (not
   // only after this tab's own approve, rebuild or decision) and when the window regains focus.
   const firstRoute = useRef(true);
   useEffect(() => {

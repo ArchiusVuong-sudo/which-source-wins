@@ -43,6 +43,8 @@ export interface PlatformPaths {
   /** Writable state: pg/, landing/, builds/, vpic.lite.db. Omit pgDir for an in-memory database. */
   dataDir: string;
   inMemory?: boolean;
+  /** Where the unpacked decoder data lives. Defaults to dataDir. */
+  vpicDir?: string;
 }
 
 export class ValidationError extends Error {}
@@ -67,7 +69,7 @@ export class Platform {
 
   static async open(paths: PlatformPaths): Promise<Platform> {
     const db = await Database.open(paths.inMemory ? undefined : join(paths.dataDir, 'pg'));
-    const decoder = await VinPatternDecoder.open(paths.dataDir);
+    const decoder = await VinPatternDecoder.open(paths.vpicDir ?? paths.dataDir);
     const p = new Platform(db, decoder, paths);
     await p.initialise();
     return p;
